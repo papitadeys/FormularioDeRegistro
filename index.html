@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title><h1>Registration Form</h1></title>
+</head>
+<body>
+    <form action="/process" method="post">
+        <div>
+            <label>First Name:*</label>
+            <input type="text" name="name" 
+            placeholder="" >
+        </div>
+        <div>
+            <label>Last Name:*</label>
+            <input type="text" name="email" 
+            placeholder="" >
+        </div>
+        <div>
+            <label>Email Addres:*</label>
+            <input type="text" name="email" 
+            placeholder="" >
+        </div>
+        <div>
+            <label>Password:*</label>
+            <input type="password">
+        </div>
+        <div>
+            <label>Confirm Password:*</label>
+            <input type="password">
+        </div>
+        <div>
+            <label>Birthday:</label>
+            <input type="date">
+        </div>
+    </form>
+        <h2>Gender identity:</h2>
+        <div>
+            <input type="radio">Male
+            <input type="radio">Female
+            <input type="radio">Non-binary
+            <input type="radio">I prefer not a answer
+        </div>
+        <div>
+            <h3>A short description about myself:</h3>
+            <textarea name="comment" cols="30" rows="8"></textarea>
+        </div>
+        <h2>
+            Favorite Language:
+        </h2>
+        <select name="snack">
+            <option>Javascript</option>
+            <option>HTML</option>
+            <option>CSS</option>
+        <input type="checkbox">Yes,I would like to receive periodic email updates
+        <input type="submit" value="Create Account">
+        
+        <h3>*Indicates a required field</h3>
+</body>
+</html>
